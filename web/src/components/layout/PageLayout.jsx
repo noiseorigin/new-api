@@ -110,7 +110,7 @@ const PageLayout = () => {
     if (logo) {
       let linkElement = document.querySelector("link[rel~='icon']");
       if (linkElement) {
-        linkElement.href = logo;
+        // linkElement.href = logo; // Keep favicon separate from main logo
       }
     }
     const savedLang = localStorage.getItem('i18nextLng');

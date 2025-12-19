@@ -25,6 +25,14 @@ body.sidebar-collapsed {
 }
 
 body {
+  /* Primary Color Override: #DA2C43 */
+  --semi-color-primary: #DA2C43;
+  --semi-color-primary-hover: #E6455A;
+  --semi-color-primary-active: #B81B30;
+  --semi-color-primary-disabled: #FAD4D8;
+  --semi-color-primary-light-default: rgba(218, 44, 67, 0.1);
+  --semi-color-primary-light-hover: rgba(218, 44, 67, 0.2);
+  --semi-color-primary-light-active: rgba(218, 44, 67, 0.3);
   font-family: Lato, 'Helvetica Neue', Arial, Helvetica, 'Microsoft YaHei',
     sans-serif;
   color: var(--semi-color-text-0);
